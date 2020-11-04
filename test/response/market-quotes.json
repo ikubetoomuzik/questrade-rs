@@ -1,0 +1,50 @@
+{
+  "quotes": [
+    {
+      "symbol": "XMU.TO",
+      "symbolId": 2434553,
+      "tier": "",
+      "bidPrice": 57.01,
+      "bidSize": 24,
+      "askPrice": 57.13,
+      "askSize": 33,
+      "lastTradePriceTrHrs": 57.15,
+      "lastTradePrice": 57.15,
+      "lastTradeSize": 100,
+      "lastTradeTick": "Up",
+      "lastTradeTime": "2020-09-25T15:23:21.375000-04:00",
+      "volume": 2728,
+      "openPrice": 55.76,
+      "highPrice": 57.15,
+      "lowPrice": 55.76,
+      "delay": 0,
+      "isHalted": false,
+      "high52w": 62.92,
+      "low52w": 45.16,
+      "VWAP": 56.644219
+    },
+    {
+      "symbol": "XMU.U.TO",
+      "symbolId": 27725609,
+      "tier": "",
+      "bidPrice": 42.65,
+      "bidSize": 10,
+      "askPrice": 42.79,
+      "askSize": 10,
+      "lastTradePriceTrHrs": 44.22,
+      "lastTradePrice": 44.22,
+      "lastTradeSize": 0,
+      "lastTradeTick": "Equal",
+      "lastTradeTime": "2020-09-16T00:00:00.000000-04:00",
+      "volume": 0,
+      "openPrice": 0,
+      "highPrice": 0,
+      "lowPrice": 0,
+      "delay": 0,
+      "isHalted": false,
+      "high52w": 0,
+      "low52w": 0,
+      "VWAP": 0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "executions": [
+    {
+      "symbol": "AAPL",
+      "symbolId": 8049,
+      "quantity":   10,
+      "side":  "Buy",
+      "price": 536.87,
+      "id": 53817310,
+      "orderId": 177106005,
+      "orderChainId": 17710600,
+      "exchangeExecId": "XS1771060050147",
+      "timestamp":  "2014-03-31T13:38:29.000000-04:00",
+      "notes":  "",
+      "venue":  "LAMP",
+      "totalCost":   5368.7,
+      "orderPlacementCommission": 0,
+      "commission":    4.95,
+      "executionFee": 0,
+      "secFee": 0,
+      "canadianExecutionFee": 0,
+      "parentId": 0
+    },
+    {
+      "symbol": "XSP.TO",
+      "symbolId": 23963,
+      "quantity": 3,
+      "side": "Buy",
+      "price": 36.52,
+      "id": 710654134,
+      "orderId": 700046545,
+      "orderChainId": 700065471,
+      "exchangeExecId": "S3-13246",
+      "timestamp": "2015-08-19T11:03:41.000000-04:00",
+      "notes": "",
+      "venue": "TSX",
+      "totalCost": 109.56,
+      "orderPlacementCommission": 0,
+      "commission": 0,
+      "executionFee": 0.0105,
+      "secFee": 0,
+      "legId": 0,
+      "canadianExecutionFee": 0,
+      "parentId": 710651321
+    }
+  ]
+}
