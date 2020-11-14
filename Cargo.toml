@@ -1,13 +1,13 @@
 [package]
-name = "questrade"
+name = "questrade-rs"
 version = "0.1.0"
-authors = ["Dustin Thomson <dthomson@51systems.com>"]
+authors = ["Curtis Jones <mail@curtisjones.com>"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
 description = "Oxidized Questrade Client"
 categories = ["web-programming::http-client"]
 keywords = ["api", "finance", "stock", "questrade"]
-repository = "https://github.com/51systems/questrade-rs"
+repository = "https://github.com/ikubetoomuzik/questrade-rs"
 readme = "README.md"
 
 [dependencies]

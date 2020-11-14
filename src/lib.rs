@@ -985,6 +985,10 @@ pub struct AccountPosition {
     #[serde(rename = "currentPrice")]
     pub current_price: Number,
 
+    /// Current price of the position symbol.
+    #[serde(rename = "dayPnl")]
+    pub day_profit_and_loss: Number,
+
     /// Average price paid for all executions constituting the position.
     #[serde(rename = "averageEntryPrice")]
     pub average_entry_price: Number,
@@ -1755,6 +1759,7 @@ mod tests {
                     current_price: json!(60.17).to_number(),
                     average_entry_price: json!(60.23).to_number(),
                     closed_profit_and_loss: json!(0).to_number(),
+                    day_profit_and_loss: json!(0).to_number(),
                     open_profit_and_loss: json!(-6).to_number(),
                     total_cost: json!(6023).to_number(),
                     is_real_time: true,
@@ -1769,6 +1774,7 @@ mod tests {
                     current_price: json!(35.71).to_number(),
                     average_entry_price: json!(32.831898).to_number(),
                     closed_profit_and_loss: json!(0).to_number(),
+                    day_profit_and_loss: json!(0).to_number(),
                     open_profit_and_loss: json!(500.789748).to_number(),
                     total_cost: json!(3070.750252).to_number(),
                     is_real_time: false,
