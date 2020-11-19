@@ -959,6 +959,14 @@ pub struct AccountBalances {
     pub sod_combined_balances: Vec<AccountBalance>,
 }
 
+fn none_is_zero<'de, D>(deserializer: D) -> Result<Number, D::Error>
+where
+    D: Deserializer<'de>,
+{
+    let o: Option<Number> = Option::deserialize(deserializer)?;
+    Ok(o.unwrap_or(Number::from(0)))
+}
+
 /// Account Position.
 #[derive(Serialize, Deserialize, Clone, PartialEq, Debug)]
 pub struct AccountPosition {
@@ -987,6 +995,7 @@ pub struct AccountPosition {
 
     /// Current price of the position symbol.
     #[serde(rename = "dayPnl")]
+    #[serde(deserialize_with = "none_is_zero")]
     pub day_profit_and_loss: Number,
 
     /// Average price paid for all executions constituting the position.
